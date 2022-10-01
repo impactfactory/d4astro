@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--body-bg);
+  //background: var(--body-bg-gradient);
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+  }
+}
+
+/* Layout */
+
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: [header] auto [main] 1fr [footer] auto;
+  min-height: 100vh;
+}
+
+/* froala editor css */
+
+.fr-img-caption {
+  background: var (--white);
+  border-radius: var(--rad-xs);
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  position: relative;
+  top: 17px !important;
+
+  img {
+    width: 100% !important;
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+.fr-inner {
+  display: block;
+  font-size: 12px;
+  padding: 10px 10px 5px 10px;
+  margin: 0;
+}
+
+.fr-fic {
+  border-radius: 4px;
+  max-width: 100% !important;
+}
+.fr-dii {
+}
+
+.fr-fil {
+  float: left;
+  margin: 0 20px 10px 0;
+  position: relative;
+  top: 5px;
+}
+.fr-fir {
+  float: right;
+  margin: 0 0 10px 20px;
+  position: relative;
+  top: 5px;
+}

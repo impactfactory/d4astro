@@ -1,0 +1,32 @@
+---
+import Footer from "../components/Footer/Footer.astro";
+import Header from "../components/Header/Header.astro";
+import Facebook from "../components/Meta/Facebook.astro";
+import Favicons from "../components/Meta/Favicons.astro";
+import Geo from "../components/Meta/Geo.astro";
+import Linkrel from "../components/Meta/Linkrel.astro";
+import Metas from "../components/Meta/Metas.astro";
+import Preconnect from "../components/Meta/Preconnect.astro";
+import Twitter from "../components/Meta/Twitter.astro";
+
+import "../styles/custom.scss";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <Metas />
+    <Preconnect />
+    <Linkrel />
+    <title>Praxis Mustermann</title>
+    <Geo />
+    <Facebook />
+    <Twitter />
+    <Favicons />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
