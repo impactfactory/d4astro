@@ -1,7 +1,7 @@
 export const SITE = {
 	title: 'Documentation',
 	description: 'Your website description.',
-	defaultLanguage: 'en_US',
+	defaultLanguage: 'de_CH',
 };
 
 export const OPEN_GRAPH = {

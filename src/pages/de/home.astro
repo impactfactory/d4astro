@@ -6,15 +6,20 @@ import Intro from "../../components/Sections/Intro.astro";
 import Practice from "../../components/Sections/Practice.astro";
 import Reservation from "../../components/Sections/Reservation.astro";
 import Team from "../../components/Sections/Team.astro";
+
+import { Debug } from "astro/components";
+
+import data from "../../data/de.json";
 ---
 
-<Front>
-  <main>
-    <Intro />
-    <Team />
-    <Practice />
-    <Reservation />
-    <Arrival />
-    <Faq />
-  </main>
-</Front>
+<Front title={data.meta.title} />
+<Debug {data} />
+{data.test}
+<main>
+  <Intro slogan={data.intro.title} text={data.intro.text} />
+  <Team />
+  <Practice title={data.practice.title} text={data.practice.text} />
+  <Reservation title={data.reservation.title} text={data.reservation.text} />
+  <Arrival title={data.arrival.title} text={data.arrival.text} />
+  <Faq />
+</main>

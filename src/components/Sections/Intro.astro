@@ -1,4 +1,5 @@
 ---
+const { slogan, text } = Astro.props;
 ---
 
 <div class="intro">
@@ -110,18 +111,13 @@
 
     <div class="overlay indent-me">
       <h1>
-        Am richtigen Ort:
-        <br />Familien- und Kinderpraxis Mustermann
+        {slogan}
       </h1>
     </div>
   </div>
   <div class="introtext indent-me">
     <p>
-      Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3
-      Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und
-      genereller Gesundheitsbegleitung.&nbsp;
+      {text}
     </p>
-
-    <p><strong>Willkommen!</strong></p>
   </div>
 </div>

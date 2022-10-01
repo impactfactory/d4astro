@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Dr. med. Mustermann",
+    "metatitle": "Willkommen bei Dr. med. Mustermann"
+  },
+  "intro": {
+    "title": "Am richtigen Ort: <br />Familien- und Kinderpraxis Mustermann",
+    "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>"
+  },
+  "practice": {
+    "title": "Unsere Praxis",
+    "text": "Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik, ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong>Unser Team freut sich, Sie kennenzulernen.</strong>"
+  },
+  "reservation": {
+    "title": "Reservieren Sie Ihren Termin",
+    "text": "Natürlich können Sie sich auch telefonisch unter der Nummer 044 321 67 80 anmelden."
+  },
+  "arrival": {
+    "title": "Anreise",
+    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p>"
+  },
+  "test": "irgendwas"
+}

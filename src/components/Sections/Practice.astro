@@ -1,14 +1,14 @@
+---
+const { title, text } = Astro.props;
+---
+
 <div class="practice">
   <div id="practice" class="anchor"></div>
   <section class="indent-me">
-    <h2>Unsere Praxis</h2>
+    <h2>{title}</h2>
 
     <p>
-      Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik,
-      ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein
-      Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong
-        >Unser Team freut sich, Sie kennenzulernen.</strong
-      >
+      {text}
     </p>
 
     <div id="gallery-1" class="gallery">

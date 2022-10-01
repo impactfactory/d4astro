@@ -1,14 +1,13 @@
 ---
+const { title, text } = Astro.props;
 ---
 
 <div class="reservation">
   <div id="reservation" class="anchor"></div>
   <div class="indent-me">
-    <h2>Reservieren Sie Ihren Termin</h2>
-
+    <h2>{title}</h2>
     <p>
-      Natürlich können Sie sich auch telefonisch unter der Nummer 044 321 67 80
-      anmelden.&nbsp;
+      {text}
     </p>
     <div class="medicosearch-widget">
       <div id="medicosearchWidget"></div>

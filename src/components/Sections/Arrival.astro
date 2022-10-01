@@ -1,27 +1,13 @@
 ---
+const { title, text } = Astro.props;
 ---
 
 <div class="arrival">
   <div class="indent-me">
     <div id="arrival" class="anchor"></div>
-    <h2>Anreise</h2>
+    <h2>{title}</h2>
 
-    <p>
-      Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie
-      da.
-    </p>
-
-    <p>
-      Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock.
-      Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und
-      durchgehend rohlstuhl-gerecht.&nbsp;
-    </p>
-
-    <p>
-      Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6
-      ("Bahnhofstrasse"). Im Untergeschoss stehen zwei Parkplätze für
-      Patient:innen frei.&nbsp;
-    </p>
+    {text}
 
     <p>
       Nutzen Sie gerne untenstehende Reisehilfen.
@@ -63,5 +49,6 @@
   marginheight="0"
   marginwidth="0"
   src="https://maps.google.com/maps?&q="
-  Bahnhofstrasse+1+8000+Z%C3%BCrich+Schweiz)+"&output="embed"">
+  Bahnhofstrasse+1+8000+Z%C3%BCrich+Schweiz)+"&output="embed"
+  ">
 </iframe>

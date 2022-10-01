@@ -9,16 +9,21 @@ import Metas from "../components/Meta/Metas.astro";
 import Preconnect from "../components/Meta/Preconnect.astro";
 import Twitter from "../components/Meta/Twitter.astro";
 
+//import * as CONFIG from "../config";
+//import { getLanguageFromURL } from "../languages";
+
 import "../styles/custom.scss";
+
+const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de-CH">
   <head>
     <Metas />
     <Preconnect />
     <Linkrel />
-    <title>Praxis Mustermann</title>
+    <title>{title}</title>
     <Geo />
     <Facebook />
     <Twitter />
@@ -26,7 +31,9 @@ import "../styles/custom.scss";
   </head>
   <body>
     <Header />
-    <slot />
+    <slot>
+      <p>Ups, me has NO content, not :(</p>
+    </slot>
     <Footer />
   </body>
 </html>
