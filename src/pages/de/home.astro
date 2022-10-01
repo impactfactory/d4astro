@@ -7,19 +7,21 @@ import Practice from "../../components/Sections/Practice.astro";
 import Reservation from "../../components/Sections/Reservation.astro";
 import Team from "../../components/Sections/Team.astro";
 
-import { Debug } from "astro/components";
-
 import data from "../../data/de.json";
 ---
 
-<Front title={data.meta.title} />
-<Debug {data} />
-{data.test}
-<main>
-  <Intro slogan={data.intro.title} text={data.intro.text} />
-  <Team />
-  <Practice title={data.practice.title} text={data.practice.text} />
-  <Reservation title={data.reservation.title} text={data.reservation.text} />
-  <Arrival title={data.arrival.title} text={data.arrival.text} />
-  <Faq />
-</main>
+<Front
+  title={data.meta.title}
+  imprint={data.footer.imprint}
+  dataprotection={data.footer.dataprotection}
+  langselect={data.footer.langselect}
+  byline={data.footer.byline}>
+  <main>
+    <Intro slogan={data.intro.title} text={data.intro.text} />
+    <Team />
+    <Practice title={data.practice.title} text={data.practice.text} />
+    <Reservation title={data.reservation.title} text={data.reservation.text} />
+    <Arrival title={data.arrival.title} text={data.arrival.text} />
+    <Faq />
+  </main>
+</Front>

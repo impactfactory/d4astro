@@ -14,7 +14,7 @@ import Twitter from "../components/Meta/Twitter.astro";
 
 import "../styles/custom.scss";
 
-const { title } = Astro.props;
+const { title, imprint, dataprotection, langselect, byline } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -31,9 +31,12 @@ const { title } = Astro.props;
   </head>
   <body>
     <Header />
-    <slot>
-      <p>Ups, me has NO content, not :(</p>
-    </slot>
-    <Footer />
+    <slot />
+    <Footer
+      imprint={imprint}
+      dataprotection={dataprotection}
+      langselect={langselect}
+      byline={byline}
+    />
   </body>
 </html>
