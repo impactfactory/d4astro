@@ -8,6 +8,9 @@ import Reservation from "../../components/Sections/Reservation.astro";
 import Team from "../../components/Sections/Team.astro";
 
 import data from "../../data/de.json";
+
+//import marked from 'marked'
+//const html = marked('markdown string')
 ---
 
 <Front
@@ -17,8 +20,8 @@ import data from "../../data/de.json";
   langselect={data.footer.langselect}
   byline={data.footer.byline}>
   <main>
-    <Intro slogan={data.intro.title} text={data.intro.text} />
-    <Team />
+    <Intro title={data.intro.title} text={data.intro.text} />
+    <Team title={data.team.title} text={data.team.text} />
     <Practice title={data.practice.title} text={data.practice.text} />
     <Reservation title={data.reservation.title} text={data.reservation.text} />
     <Arrival title={data.arrival.title} text={data.arrival.text} />

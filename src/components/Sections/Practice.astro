@@ -7,9 +7,7 @@ const { title, text } = Astro.props;
   <section class="indent-me">
     <h2>{title}</h2>
 
-    <p>
-      {text}
-    </p>
+    <p set:html={text}></p>
 
     <div id="gallery-1" class="gallery">
       <div class="indent-me">

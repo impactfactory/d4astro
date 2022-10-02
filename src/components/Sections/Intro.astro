@@ -1,5 +1,5 @@
 ---
-const { slogan, text } = Astro.props;
+const { title, text } = Astro.props;
 ---
 
 <div class="intro">
@@ -110,14 +110,10 @@ const { slogan, text } = Astro.props;
     </picture>
 
     <div class="overlay indent-me">
-      <h1>
-        {slogan}
-      </h1>
+      <h1 set:html={title}></h1>
     </div>
   </div>
   <div class="introtext indent-me">
-    <p>
-      {text}
-    </p>
+    <p set:html={text}></p>
   </div>
 </div>

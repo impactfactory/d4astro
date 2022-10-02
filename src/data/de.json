@@ -8,6 +8,8 @@
     "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>"
   },
   "team": {
+    "title": "Unser Ärzteteam",
+    "text": "Mit unserem Fachärzte-Team stehen Ihnen weit gefächerte Kompetenzen und viele Jahre praktische Erfahrung zur Verfügung. Wir empfangen Sie gerne in vier Sprachen.",
     "1": {
       "name": "Dr. med. Max Mustermann",
       "title": "Facharzt für Allg. Innere Medizin",
@@ -36,7 +38,7 @@
   },
   "arrival": {
     "title": "Anreise",
-    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p>"
+    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p><p>Nutzen Sie gerne untenstehende Reisehilfen.</p>"
   },
   "faq": {},
   "footer": {

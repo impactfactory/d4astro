@@ -6,9 +6,7 @@ const { title, text } = Astro.props;
   <div id="reservation" class="anchor"></div>
   <div class="indent-me">
     <h2>{title}</h2>
-    <p>
-      {text}
-    </p>
+    <p set:html={text}></p>
     <div class="medicosearch-widget">
       <div id="medicosearchWidget"></div>
       <script

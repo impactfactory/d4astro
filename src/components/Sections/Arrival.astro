@@ -7,12 +7,10 @@ const { title, text } = Astro.props;
     <div id="arrival" class="anchor"></div>
     <h2>{title}</h2>
 
-    {text}
+    <div set:html={text}></div>
 
-    <p>
-      Nutzen Sie gerne untenstehende Reisehilfen.
-      <br />
-      <br /><a
+    <div>
+      <a
         class="btn"
         href="https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?nach=8002+Z%C3%BCrich%2C+Bahnhofstrasse&umsteigezeit=zehn"
         rel="noopener noreferrer"
@@ -36,7 +34,7 @@ const { title, text } = Astro.props;
         rel="noopener noreferrer"
         target="_blank">druckbare Wegbeschreibung</a
       >
-    </p>
+    </div>
   </div>
 </div>
 
@@ -48,7 +46,9 @@ const { title, text } = Astro.props;
   scrolling="no"
   marginheight="0"
   marginwidth="0"
-  src="https://maps.google.com/maps?&q="
-  Bahnhofstrasse+1+8000+Z%C3%BCrich+Schweiz)+"&output="embed"
-  ">
+  src="https://maps.google.com/maps?&q='Bahnhofstrasse+1+8000+Z%C3%BCrich+Schweiz)+'&output=embed">
+  <!-- src='https://maps.google.com/maps?&amp;q="{{
+  orgameta.schema_street|url_encode }}+{{ orgameta.schema_no|url_encode }}+{{
+  orgameta.schema_zip|url_encode }}+{{ orgameta.schema_city|url_encode }}+{{
+  orgameta.schema_country|url_encode }})+"&amp;output=embed'>-->
 </iframe>

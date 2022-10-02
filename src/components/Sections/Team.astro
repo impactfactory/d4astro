@@ -1,16 +1,13 @@
 ---
+const { title, text } = Astro.props;
 ---
 
 <div class="team">
   <div id="team" class="anchor"></div>
   <section class="indent-me">
-    <h2>Unser Ärzte-Team</h2>
+    <h2>{title}</h2>
 
-    <p>
-      Mit unserem Fachärzte-Team stehen Ihnen weit gefächerte Kompetenzen und
-      viele Jahre praktische Erfahrung zur Verfügung. &nbsp;Wir empfangen Sie
-      gerne in vier Sprachen.
-    </p>
+    <p set:html={text}></p>
 
     <div class="team-list">
       <section class="card">
