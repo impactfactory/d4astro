@@ -1,5 +1,4 @@
 ---
-import Footer from "../components/Footer/Footer.astro";
 import Header from "../components/Header/Header.astro";
 import Facebook from "../components/Meta/Facebook.astro";
 import Favicons from "../components/Meta/Favicons.astro";
@@ -32,11 +31,5 @@ const { title, imprint, dataprotection, langselect, byline } = Astro.props;
   <body>
     <Header />
     <slot />
-    <Footer
-      imprint={imprint}
-      dataprotection={dataprotection}
-      langselect={langselect}
-      byline={byline}
-    />
   </body>
 </html>

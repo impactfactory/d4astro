@@ -1,0 +1,39 @@
+---
+import { Picture } from "@astrojs/image/components";
+//import localImage from '../assets/localImage.png';
+import Reservation from "../Reservation.astro";
+import Availability from "./Availability.astro";
+import Email from "./Email.astro";
+import Phone from "./Phone.astro";
+
+const { name, title, text, availability, email, phone, reservation, portrait } =
+  Astro.props;
+---
+
+<section class="card">
+  <div class="name">
+    <h3>{name}</h3>
+    <h4>{title}</h4>
+  </div>
+
+  <div class="portrait">
+    <Picture
+      src="../assets/{portrait}"
+      widths={[200, 400, 800]}
+      sizes="(max-width: 800px) 100vw, 800px"
+      formats={["avif", "webp", "jpeg"]}
+      alt="Portrait {name}"
+    />
+
+    <!-- 280, 320, 360 , 566 767, 1024 max 3600 -->
+  </div>
+
+  <div class="desc">
+    <p set:html={text}></p>
+  </div>
+
+  {availability ? <Availability availability={availability} /> : ""}
+  {phone ? <Phone phone={phone} /> : ""}
+  {email ? <Email email={email} /> : ""}
+  {reservation ? <Reservation /> : ""}
+</section>

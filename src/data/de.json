@@ -1,4 +1,17 @@
 {
+  "org": {
+    "author": "Dr. med. Max Muster",
+    "copyright": "Dr. med. Max Muster",
+    "desc": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.",
+    "id": "https://mustermann.ch",
+    "name": "Praxis Mustermann",
+    "medicalspeciality": "surgical,cardiovascular",
+    "speciality": "TAVI",
+    "sameAs": "",
+    "type": "Corporation,LocalBusiness,MedicalOrganization",
+    "url": "https://mustermann.ch",
+    "urlauthor": "https://mustermann.ch"
+  },
   "meta": {
     "title": "Dr. med. Mustermann",
     "metatitle": "Willkommen bei Dr. med. Mustermann"
@@ -10,23 +23,27 @@
   "team": {
     "title": "Unser Ärzteteam",
     "text": "Mit unserem Fachärzte-Team stehen Ihnen weit gefächerte Kompetenzen und viele Jahre praktische Erfahrung zur Verfügung. Wir empfangen Sie gerne in vier Sprachen.",
-    "1": {
-      "name": "Dr. med. Max Mustermann",
-      "title": "Facharzt für Allg. Innere Medizin",
-      "text": "Ärztlicher Leiter. Sprachen: Deutsch, Englisch, Französisch. Spezialgebiete Kindermedizin und Labortechnologie. Veröffentlichungsliste hier.",
-      "availability": "Mo-Fr, 13-17",
-      "email": "max@mustermann.ch",
-      "reservation": "1"
-    },
-    "2": {
-      "name": "Prof. Dr. med. Mara Musterfrau",
-      "title": "Fachärztin Kardiologie und Angiologie",
-      "text": "Sprachen: deutsch, Englisch, Spanisch. Spezialgebiet Generika und Polypharmazie.",
-      "availability": "Mo-Fr, 13-17",
-      "phone": "077 567 89 10",
-      "email": "mara@mustermann.ch",
-      "reservation": "1"
-    }
+    "persons": [
+      {
+        "name": "Dr. med. Max Mustermann",
+        "title": "Facharzt für Allg. Innere Medizin",
+        "text": "Ärztlicher Leiter. Sprachen: Deutsch, Englisch, Französisch. Spezialgebiete Kindermedizin und Labortechnologie. Veröffentlichungsliste <a href=\"https://scholar.google.com/citations?user=KTI2dCcAAAAJ&hl=en&oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">hier</a>.",
+        "availability": "Mo-Fr, 13-17",
+        "email": "max@mustermann.ch",
+        "reservation": "1",
+        "portrait": "max-mustermann.jpg"
+      },
+      {
+        "name": "Prof. Dr. med. Mara Musterfrau",
+        "title": "Fachärztin Kardiologie und Angiologie",
+        "text": "Sprachen: deutsch, Englisch, Spanisch. Spezialgebiet Generika und Polypharmazie.",
+        "availability": "Mo-Fr, 13-17",
+        "phone": "077 567 89 10",
+        "email": "mara@mustermann.ch",
+        "reservation": "1",
+        "portrait": "mara-musterfrau.jpg"
+      }
+    ]
   },
   "practice": {
     "title": "Unsere Praxis",
@@ -38,7 +55,25 @@
   },
   "arrival": {
     "title": "Anreise",
-    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p><p>Nutzen Sie gerne untenstehende Reisehilfen.</p>"
+    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p><p>Nutzen Sie gerne untenstehende Reisehilfen.</p>",
+    "buttons": [
+      {
+        "href": "https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?nach=8002+Z%C3%BCrich%2C+Bahnhofstrasse&umsteigezeit=zehn",
+        "text": "Fahrpläne"
+      },
+      {
+        "href": "https://www.google.com/maps/dir//Bahnhofstrasse+1+8001+Z%C3%BCrich/@47.367335,8.5398542,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47900a0005532115:0x35c28fa7189a4871",
+        "text": "Route planen"
+      },
+      {
+        "href": "https://www.srk-zuerich.ch/sites/default/files/2021-12/telefonliste-fahrdienst-gemeinden-srk-zuerich-2112.pdf",
+        "text": "Fahrdienst"
+      },
+      {
+        "href": "/assets/wegbeschreibung.pdf",
+        "text": "druckbare Wegbeschreibung"
+      }
+    ]
   },
   "faq": {},
   "footer": {

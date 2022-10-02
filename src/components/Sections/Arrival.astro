@@ -1,5 +1,7 @@
 ---
-const { title, text } = Astro.props;
+import Button from "../Elements/Button.astro";
+
+const { title, text, buttons } = Astro.props;
 ---
 
 <div class="arrival">
@@ -10,30 +12,11 @@ const { title, text } = Astro.props;
     <div set:html={text}></div>
 
     <div>
-      <a
-        class="btn"
-        href="https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?nach=8002+Z%C3%BCrich%2C+Bahnhofstrasse&umsteigezeit=zehn"
-        rel="noopener noreferrer"
-        target="_blank">Fahrpläne</a
-      >
-      <a
-        class="btn"
-        href="https://www.google.com/maps/dir//Bahnhofstrasse+1+8001+Z%C3%BCrich/@47.367335,8.5398542,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47900a0005532115:0x35c28fa7189a4871"
-        rel="noopener noreferrer"
-        target="_blank">Route planen</a
-      >
-      <a
-        class="btn"
-        href="https://www.srk-zuerich.ch/sites/default/files/2021-12/telefonliste-fahrdienst-gemeinden-srk-zuerich-2112.pdf"
-        rel="noopener noreferrer"
-        target="_blank">Fahrdienst</a
-      >
-      <a
-        class="btn"
-        href="http://xx.pdf"
-        rel="noopener noreferrer"
-        target="_blank">druckbare Wegbeschreibung</a
-      >
+      {
+        buttons.map((button) => (
+          <Button href={button.href} linktext={button.text} />
+        ))
+      }
     </div>
   </div>
 </div>
