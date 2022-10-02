@@ -1,13 +1,16 @@
 ---
 import { Picture } from "@astrojs/image/components";
-//import localImage from '../assets/localImage.png';
-import Reservation from "../Reservation.astro";
+import Reservation from "./Reservation.astro";
 import Availability from "./Availability.astro";
 import Email from "./Email.astro";
 import Phone from "./Phone.astro";
 
 const { name, title, text, availability, email, phone, reservation, portrait } =
   Astro.props;
+
+let imgPath = "src/assets/" + portrait;
+
+//import localImage from imgPath;
 ---
 
 <section class="card">
@@ -18,14 +21,13 @@ const { name, title, text, availability, email, phone, reservation, portrait } =
 
   <div class="portrait">
     <Picture
-      src="../assets/{portrait}"
-      widths={[200, 400, 800]}
-      sizes="(max-width: 800px) 100vw, 800px"
+      src={imgPath}
+      widths={[211, 230, 262, 311, 380, 422, 438, 460, 524, 622, 760, 876]}
+      aspectRatio="1:1"
+      sizes="(max-width: 280px) 262px, (max-width: 320px) 262px, (max-width: 360px) 262px, (max-width: 566px) 438px, (max-width: 767px) 311px, (max-width: 3600px) 262px, 876px"
       formats={["avif", "webp", "jpeg"]}
-      alt="Portrait {name}"
+      alt={"Portrait " + name}
     />
-
-    <!-- 280, 320, 360 , 566 767, 1024 max 3600 -->
   </div>
 
   <div class="desc">
@@ -37,3 +39,8 @@ const { name, title, text, availability, email, phone, reservation, portrait } =
   {email ? <Email email={email} /> : ""}
   {reservation ? <Reservation /> : ""}
 </section>
+
+<!--
+    src={"/src/assets/" + portrait} wandelt nicht in avif oder webp um
+    import localImage from imgPath; führt zu fehlermeldung
+ -->
