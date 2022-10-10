@@ -1,16 +1,21 @@
 {
   "org": {
     "author": "Dr. med. Max Muster",
+    "city": "Zürich",
     "copyright": "Dr. med. Max Muster",
+    "country": "Schweiz",
     "desc": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.",
     "id": "https://mustermann.ch",
     "name": "Praxis Mustermann",
+    "no": "62",
     "medicalspeciality": "surgical,cardiovascular",
     "speciality": "TAVI",
     "sameAs": "",
+    "street": "Bahnhofstrasse",
     "type": "Corporation,LocalBusiness,MedicalOrganization",
     "url": "https://mustermann.ch",
-    "urlauthor": "https://mustermann.ch"
+    "urlauthor": "https://mustermann.ch",
+    "zip": "8000"
   },
   "meta": {
     "title": "Dr. med. Mustermann",
@@ -30,6 +35,7 @@
         "text": "Ärztlicher Leiter. Sprachen: Deutsch, Englisch, Französisch. Spezialgebiete Kindermedizin und Labortechnologie. Veröffentlichungsliste <a href=\"https://scholar.google.com/citations?user=KTI2dCcAAAAJ&hl=en&oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">hier</a>.",
         "availability": "Mo-Fr, 13-17",
         "email": "max@mustermann.ch",
+        "mailto": "mailto:max@mustermann.ch",
         "reservation": "1",
         "portrait": "max-mustermann.jpg"
       },
@@ -40,6 +46,7 @@
         "availability": "Mo-Fr, 13-17",
         "phone": "077 567 89 10",
         "email": "mara@mustermann.ch",
+        "mailto": "mailto:mara@mustermann.ch",
         "reservation": "1",
         "portrait": "mara-musterfrau.jpg"
       }
@@ -47,7 +54,29 @@
   },
   "practice": {
     "title": "Unsere Praxis",
-    "text": "Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik, ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong>Unser Team freut sich, Sie kennenzulernen.</strong>"
+    "text": "Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik, ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong>Unser Team freut sich, Sie kennenzulernen.</strong>",
+    "images": [
+      {
+        "file": "behandlungsraum.jpg",
+        "title": "Behandlungsraum",
+        "description": "genug Platz und moderne Ausrüstung"
+      },
+      {
+        "file": "beratung.jpg",
+        "title": "Zusammen",
+        "description": "Patienteninformation wird bei uns hochgeschrieben"
+      },
+      {
+        "file": "empfang.jpg",
+        "title": "Empfang",
+        "description": "per Telefon, Mail und vor Ort für Sie da"
+      },
+      {
+        "file": "warteraum.jpg",
+        "title": "Warteraum",
+        "description": "bei uns langweilt sich weder Gross noch Klein"
+      }
+    ]
   },
   "reservation": {
     "title": "Reservieren Sie Ihren Termin",
@@ -75,9 +104,30 @@
       }
     ]
   },
-  "faq": {},
+  "faq": {
+    "title": "Fragen unserer Patient:innen",
+    "text": "",
+    "questions": [
+      {
+        "question": "Welche Kosten übernimmt meine Versicherung?",
+        "answer": "Normalerweise werden alle Kosten durch die Allgemeinversicherung gedeckt. Falls eine Leistung, z.B. spezielle Laboruntersuchungen, nicht gedeckt wären, informieren wir Sie, so dass Sie entscheiden können, ob Sie diese machen möchten und zu welchem Zeitpunkt."
+      },
+      {
+        "question": "Wie lange dauert eine Erstabklärung?",
+        "answer": "Eine Erstabklärung dauert in der Regel nicht länger als 60 Minuten."
+      },
+      {
+        "question": "Was muss ich beim ersten Besuch beachten?",
+        "answer": "Wenn möglich füllen Sie vor dem Besuch das digitale Stammblatt inkl. der Anamnese aus. So ist Ihre Konsultation optimal vorbereitet."
+      },
+      {
+        "question": "Darf ich den Arzt aussuchen?",
+        "answer": "Ja, natürlich haben Sie freie Wahl, von welchem Arzt oder Ärztin Sie beraten und behandeln lassen möchten."
+      }
+    ]
+  },
   "footer": {
-    "byline": "",
+    "byline": "<a href=\"https://digital4docs.ch\" title=\"Praxis Websites für Ärzte\" rel=\"noopener\">Powered by Digital4Docs</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"/de\">&copy; 2022 - 2022 Praxis Mustermann</a> &nbsp;&nbsp;|&nbsp;&nbsp;Icons used with kind permission by <a href=\"https://www.unsplash.com\" rel=\"noopener\" title=\"Unsplash\">Unsplash</a> and <a href=\"https://fontawesome.com/license\" rel=\"noopener\">Fontawesome</a>",
     "langselect": "Sprache wählen",
     "imprint": "Impressum",
     "dataprotection": "Datenschutz"

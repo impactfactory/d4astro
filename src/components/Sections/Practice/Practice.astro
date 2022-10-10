@@ -1,0 +1,16 @@
+---
+import Gallery from "./Gallery.astro";
+
+const { title, text, images } = Astro.props;
+---
+
+<div class="practice">
+  <div id="practice" class="anchor"></div>
+  <section class="indent-me">
+    <h2>{title}</h2>
+
+    <p set:html={text}></p>
+
+    <Gallery images={images} />
+  </section>
+</div>

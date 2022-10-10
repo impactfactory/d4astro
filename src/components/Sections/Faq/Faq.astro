@@ -1,0 +1,17 @@
+---
+import Question from "./Question.astro";
+const { title, text, questions } = Astro.props;
+---
+
+<div class="faq">
+  <div id="faq" class="anchor"></div>
+  <section class="indent-me">
+    <h2>{title}</h2>
+
+    {
+      questions.map((question) => (
+        <Question question={question.question} answer={question.answer} />
+      ))
+    }
+  </section>
+</div>

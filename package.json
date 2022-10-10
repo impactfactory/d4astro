@@ -17,6 +17,7 @@
     "@astrojs/preact": "^1.1.1",
     "@astrojs/react": "^1.1.4",
     "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/svelte": "^1.0.1",
     "@docsearch/css": "^3.1.0",
     "@docsearch/react": "^3.1.0",
     "@types/node": "^18.0.0",
@@ -26,7 +27,8 @@
     "preact": "^10.7.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "sharp": "^0.31.1"
+    "sharp": "^0.31.1",
+    "svelte": "^3.51.0"
   },
   "devDependencies": {
     "sass": "^1.55.0"

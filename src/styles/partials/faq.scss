@@ -1,6 +1,10 @@
 .faq {
   width: 100%;
 
+  h2 {
+    padding-bottom: var(--padd-lg);
+  }
+
   details {
     border-top: 1px solid hsl(var(--dark) / 0.2);
     padding: var(--padd-xs) 0 var(--padd-xs) 0;

@@ -1,0 +1,25 @@
+---
+import Button from "../../Elements/Button.astro";
+import Map from "./Map.svelte";
+
+const { title, text, buttons, org } = Astro.props;
+---
+
+<div class="arrival">
+  <div class="indent-me">
+    <div id="arrival" class="anchor"></div>
+    <h2>{title}</h2>
+
+    <div set:html={text}></div>
+
+    <div>
+      {
+        buttons.map((button) => (
+          <Button href={button.href} linktext={button.text} />
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<Map client:visible org={org} />

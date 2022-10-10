@@ -5,8 +5,17 @@ import Availability from "./Availability.astro";
 import Email from "./Email.astro";
 import Phone from "./Phone.astro";
 
-const { name, title, text, availability, email, phone, reservation, portrait } =
-  Astro.props;
+const {
+  name,
+  title,
+  text,
+  availability,
+  email,
+  mailto,
+  phone,
+  reservation,
+  portrait,
+} = Astro.props;
 
 let imgPath = "src/assets/" + portrait;
 
@@ -36,7 +45,7 @@ let imgPath = "src/assets/" + portrait;
 
   {availability ? <Availability availability={availability} /> : ""}
   {phone ? <Phone phone={phone} /> : ""}
-  {email ? <Email email={email} /> : ""}
+  {mailto ? <Email mailto={mailto} /> : ""}
   {reservation ? <Reservation /> : ""}
 </section>
 

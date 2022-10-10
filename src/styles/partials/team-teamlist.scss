@@ -50,23 +50,20 @@
         background: hsl(var(--dark) / 0.1);
         border-radius: var(--rad-lg);
         align-self: start;
+        display: block;
         font-size: calc(var(--scale) / 1.6 * 1rem);
         padding: var(--padd-md);
-        transition: 3s;
+        transition: 0.5s;
+        width: 100%;
 
-        a {
-          display: block;
-          width: 100%;
-
-          svg {
-            display: inline-block;
-            float: left;
-            height: 20px;
-            margin-right: var(--padd-md);
-            position: relative;
-            top: 1px;
-            width: 20px;
-          }
+        svg {
+          display: inline-block;
+          float: left;
+          height: 20px;
+          margin-right: var(--padd-md);
+          position: relative;
+          top: 1px;
+          width: 20px;
         }
       }
 
@@ -79,13 +76,7 @@
             hsl(var(--prim) / 1) 0%,
             hsl(var(--prim) / 0.6) 100%
           );
-
-          a,
-          .fa-envelope,
-          .fa-phone-alt,
-          .fa-calendar-check {
-            color: hsl(var(--white) / 1);
-          }
+          color: hsl(var(--white) / 1);
         }
       }
 

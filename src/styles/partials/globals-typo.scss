@@ -21,6 +21,8 @@ p {
   line-height: var(--leading);
   margin-top: calc(var(--leading) / 1.6);
   margin-bottom: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
 
   a {
     color: var(--body-color);
@@ -35,6 +37,8 @@ ol {
 
   li {
     line-height: var(--leading);
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   ul,
@@ -57,9 +61,11 @@ h3,
 h4,
 h5,
 h6 {
+  hyphens: auto;
+  line-height: var(--leading);
   margin-top: var(--leading);
   margin-bottom: 0;
-  line-height: var(--leading);
+  overflow-wrap: break-word;
 }
 
 h1 {

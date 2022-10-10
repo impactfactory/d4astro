@@ -478,22 +478,7 @@ const { imprint, dataprotection, langselect, byline } = Astro.props;
         <a href="/de" class="selected">Deutsch</a>
       </div>
 
-      <div class="byline">
-        {byline}
-        <a
-          href="https://digital4docs.ch"
-          title="Praxis Websites für Ärzte"
-          rel="noopener">Powered by Digital4Docs</a
-        > &nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="/de">&copy; 2022 - 2022 Praxis Mustermann</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-        Icons used with kind permission by <a
-          href="https://www.unsplash.com"
-          rel="noopener"
-          title="Unsplash">Unsplash</a
-        > and <a href="https://fontawesome.com/license" rel="noopener"
-          >Fontawesome</a
-        >.
-      </div>
+      <div class="byline" set:html={byline}></div>
     </div>
   </section>
 </footer>

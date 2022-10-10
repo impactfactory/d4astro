@@ -1,15 +1,15 @@
 ---
-import Arrival from "../../components/Sections/Arrival.astro";
-import Faq from "../../components/Sections/Faq.astro";
+import Arrival from "../../components/Sections/Arrival/Arrival.astro";
+import Faq from "../../components/Sections/Faq/Faq.astro";
 import Footer from "../../components/Footer/Footer.astro";
 import Front from "../../layouts/Front.astro";
 import Intro from "../../components/Sections/Intro.astro";
 import JsonWebsite from "../../components/Schema/JsonWebsite.astro";
 import JsonType from "../../components/Schema/JsonType.astro";
 import JsonFaq from "../../components/Schema/JsonFaq.astro";
-import Practice from "../../components/Sections/Practice.astro";
+import Practice from "../../components/Sections/Practice/Practice.astro";
 import Reservation from "../../components/Sections/Reservation.astro";
-import Team from "../../components/Sections/Team.astro";
+import Team from "../../components/Sections/Team/Team.astro";
 
 import data from "../../data/de.json";
 
@@ -30,14 +30,23 @@ import data from "../../data/de.json";
       text={data.team.text}
       persons={data.team.persons}
     />
-    <Practice title={data.practice.title} text={data.practice.text} />
+    <Practice
+      title={data.practice.title}
+      text={data.practice.text}
+      images={data.practice.images}
+    />
     <Reservation title={data.reservation.title} text={data.reservation.text} />
     <Arrival
       title={data.arrival.title}
       text={data.arrival.text}
       buttons={data.arrival.buttons}
+      org={data.org}
     />
-    <Faq />
+    <Faq
+      title={data.faq.title}
+      text={data.faq.text}
+      questions={data.faq.questions}
+    />
   </main>
   <Footer
     imprint={data.footer.imprint}

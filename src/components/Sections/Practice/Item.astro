@@ -1,0 +1,51 @@
+---
+import { Picture } from "@astrojs/image/components";
+import AngleLeft from "./AngleLeft.astro";
+import AngleRight from "./AngleRight.astro";
+import Close from "./Close.astro";
+
+const { title, description, file, index, array } = Astro.props;
+---
+
+<a href={"#image-" + (index + 1)}>
+  <Picture
+    src={"src/assets/" + file}
+    widths={[150]}
+    aspectRatio="10:8"
+    sizes="(min-width: 20px) 150px, 150px"
+    formats={["avif", "webp", "jpeg"]}
+    alt={title}
+    fit="cover"
+    position="center"
+  />
+</a>
+
+<div class="lb-overlay" id={"image-" + (index + 1)}>
+  <div class="controls">
+    {index == 0 ? "" : <AngleLeft prev={index} />}
+
+    {
+      index < array.length - 1 ? (
+        <AngleRight next={index + 2} />
+      ) : (
+        <AngleRight next={1} />
+      )
+    }
+
+    <Close />
+  </div>
+
+  <Picture
+    src={"src/assets/" + file}
+    widths={[211, 230, 262, 311, 380, 422, 438, 460, 524, 622, 760, 876]}
+    aspectRatio="10:8"
+    sizes="90%"
+    formats={["avif", "webp", "jpeg"]}
+    alt={title}
+  />
+
+  <div class="info">
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
+</div>

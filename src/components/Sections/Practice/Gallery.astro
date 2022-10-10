@@ -1,0 +1,25 @@
+---
+import Item from "./Item.astro";
+
+const { images } = Astro.props;
+---
+
+<div id="gallery-1" class="gallery">
+  <div class="indent-me">
+    <ul class="lb-album">
+      {
+        images.map((image, index, array) => (
+          <li>
+            <Item
+              title={image.title}
+              description={image.description}
+              file={image.file}
+              index={index}
+              array={array}
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</div>
