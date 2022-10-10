@@ -1,0 +1,13 @@
+---
+import Medico from "./Medico.svelte";
+const { title, text } = Astro.props;
+---
+
+<div class="reservation">
+  <div id="reservation" class="anchor"></div>
+  <div class="indent-me">
+    <h2>{title}</h2>
+    <p set:html={text}></p>
+    <Medico client:visible />
+  </div>
+</div>
