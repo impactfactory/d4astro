@@ -1,17 +1,11 @@
 ---
+const { org } = Astro.props;
+
+const schema =
+  "{" +
+  '"@context": "https://schema.org", "@type": "Website", "url": "' +
+  org.url +
+  '"}';
 ---
 
-<!--
-     <script type="application/ld+json">
-      {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https://dth-herzzentrum.ch/de",
-    "potentialAction": [{
-      "@type": "SearchAction",
-      "target": "https://dth-herzzentrum.ch/de/suchresultate?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }]
-   }
-  </script> 
- -->
+<script type="application/ld+json" set:html={schema}></script>

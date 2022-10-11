@@ -1,28 +1,24 @@
 ---
+const { faq } = Astro.props;
+
+const json = JSON.stringify(
+  faq.questions.map((q) => {
+    return {
+      "@type": "Question",
+      name: q.question,
+      acceptedAnswer: {
+        type: "Answer",
+        text: q.answer,
+      },
+    };
+  })
+);
+
+const schema =
+  "{" +
+  '"@context": "https://schema.org", "@type": "FAQPage", "mainEntity":' +
+  json +
+  "}";
 ---
 
-<!--
-
-<script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-                   {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://dth-herzzentrum.ch/de"
-              }
-              ]
-         }
-       </script>
-
-     
-
-
-
-
-
-
- -->
+<script type="application/ld+json" set:html={schema}></script>

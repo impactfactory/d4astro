@@ -53,8 +53,9 @@ import data from "../../data/de.json";
     dataprotection={data.footer.dataprotection}
     langselect={data.footer.langselect}
     byline={data.footer.byline}
+    org={data.org}
   />
-  <JsonWebsite />
-  <JsonType />
-  <JsonFaq />
+  <JsonType org={data.org} />
+  <JsonWebsite org={data.org} />
+  <JsonFaq faq={data.faq} />
 </Front>
