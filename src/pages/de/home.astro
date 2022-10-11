@@ -1,5 +1,6 @@
 ---
 import Arrival from "../../components/Sections/Arrival/Arrival.astro";
+import data from "../../data/de.json";
 import Faq from "../../components/Sections/Faq/Faq.astro";
 import Footer from "../../components/Footer/Footer.astro";
 import Front from "../../layouts/Front.astro";
@@ -11,18 +12,11 @@ import Practice from "../../components/Sections/Practice/Practice.astro";
 import Reservation from "../../components/Sections/Reservation/Reservation.astro";
 import Team from "../../components/Sections/Team/Team.astro";
 
-import data from "../../data/de.json";
-
 //import marked from 'marked'
 //const html = marked('markdown string')
 ---
 
-<Front
-  title={data.meta.title}
-  imprint={data.footer.imprint}
-  dataprotection={data.footer.dataprotection}
-  langselect={data.footer.langselect}
-  byline={data.footer.byline}>
+<Front>
   <main>
     <Intro title={data.intro.title} text={data.intro.text} />
     <Team

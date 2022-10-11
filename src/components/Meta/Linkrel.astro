@@ -1,6 +1,9 @@
 ---
-
+const { org } = Astro.props;
+const urlDe = org.url + "/de";
+const urlEn = org.url + "/en";
 ---
-<link rel="canonical" href="http://d4dess.test/de">
-<link rel="alternate" hreflang="en" href="http://d4dess.test/en" />
-<link rel="alternate" hreflang="de" href="http://d4dess.test/de" />
+
+<link rel="canonical" href={org.url} />
+<link rel="alternate" hreflang="en" href={urlEn} />
+<link rel="alternate" hreflang="de" href={urlDe} />

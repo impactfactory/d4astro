@@ -1,4 +1,5 @@
 ---
+//import { dataset_dev } from "svelte/internal";
 import Header from "../components/Header/Header.astro";
 import Facebook from "../components/Meta/Facebook.astro";
 import Favicons from "../components/Meta/Favicons.astro";
@@ -7,26 +8,27 @@ import Linkrel from "../components/Meta/Linkrel.astro";
 import Metas from "../components/Meta/Metas.astro";
 import Preconnect from "../components/Meta/Preconnect.astro";
 import Twitter from "../components/Meta/Twitter.astro";
+import data from "../data/de.json";
 
 //import * as CONFIG from "../config";
 //import { getLanguageFromURL } from "../languages";
 
 import "../styles/custom.scss";
 
-const { title, imprint, dataprotection, langselect, byline } = Astro.props;
+const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="de-CH">
   <head>
-    <Metas />
+    <Metas org={data.org} />
     <Preconnect />
-    <Linkrel />
-    <title>{title}</title>
-    <Geo />
-    <Facebook />
-    <Twitter />
-    <Favicons />
+    <Linkrel org={data.org} />
+    <title>{data.org.name}</title>
+    <Geo org={data.org} />
+    <Facebook org={data.org} />
+    <Twitter org={data.org} />
+    <Favicons org={data.org} />
   </head>
   <body>
     <Header />

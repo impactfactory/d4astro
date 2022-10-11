@@ -15,6 +15,10 @@ export default defineConfig({
         en: 'en-US'
       }
     }
-  }), partytown()],
+  }), partytown({
+    // Example: Disable debug mode.
+    config: { debug: false },
+  
+})],
   site: `http://astro.build` //hier muss die finale adresse rein https://kunde.ch
 });

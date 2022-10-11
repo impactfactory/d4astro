@@ -29,6 +29,7 @@
     "region": "Kanton Zürich",
     "speciality": "TAVI",
     "sameAs": "",
+    "shortName": "k&fM",
     "specialities": ["Pädiatrie", "Innere Medizin", "Kardiologie"],
     "street": "Bahnhofstrasse",
     "type": "Corporation,LocalBusiness,MedicalOrganization",
