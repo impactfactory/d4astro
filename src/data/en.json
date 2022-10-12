@@ -153,8 +153,8 @@
     "dataprotection": "Datenschutz"
   },
   "notfound": {
-    "h1": "Ups, 404!",
-    "h2": "Unter dieser URL existiert leider kein Inhalt.",
+    "h1": "Sorry, 404!",
+    "h2": "theres no content with that address.",
     "p": "Bitte nutzen Sie untenstehende Verlinkungen, um weiterzufahren oder rufen Sie uns gerne an: ",
     "team": "Team",
     "practice": "Praxis",

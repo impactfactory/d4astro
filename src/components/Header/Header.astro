@@ -2,13 +2,13 @@
 import ContactBox from "./ContactBox.astro";
 import Logo from "./Logo.astro";
 import Nav from "./Nav.astro";
-const { nav, notFound } = Astro.props;
+const { nav, notFound, phone } = Astro.props;
 ---
 
 <header>
   <nav>
     <Logo />
     <Nav notFound={notFound} nav={nav} />
-    <ContactBox />
+    <ContactBox phone={phone} notFound={notFound} />
   </nav>
 </header>

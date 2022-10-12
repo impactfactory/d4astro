@@ -1,5 +1,4 @@
 ---
-//import { dataset_dev } from "svelte/internal";
 import Header from "../components/Header/Header.astro";
 import Facebook from "../components/Meta/Facebook.astro";
 import Favicons from "../components/Meta/Favicons.astro";
@@ -15,7 +14,7 @@ import data from "../data/de.json";
 
 import "../styles/custom.scss";
 
-const { nav, notFound } = Astro.props;
+const { nav, notFound, phone } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -31,7 +30,7 @@ const { nav, notFound } = Astro.props;
     <Favicons org={data.org} />
   </head>
   <body>
-    <Header notFound={notFound} nav={nav} />
+    <Header notFound={notFound} nav={nav} phone={phone} />
     <slot />
   </body>
 </html>
