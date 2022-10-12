@@ -3,7 +3,7 @@ import Arrival from "../../components/Sections/Arrival/Arrival.astro";
 import Faq from "../../components/Sections/Faq/Faq.astro";
 import Footer from "../../components/Footer/Footer.astro";
 import Front from "../../layouts/Front.astro";
-import Intro from "../../components/Sections/Intro.astro";
+import Intro from "../../components/Sections/Intro/Intro.astro";
 import JsonWebsite from "../../components/Schema/JsonWebsite.astro";
 import JsonType from "../../components/Schema/JsonType.astro";
 import JsonFaq from "../../components/Schema/JsonFaq.astro";
@@ -11,11 +11,16 @@ import Practice from "../../components/Sections/Practice/Practice.astro";
 import Reservation from "../../components/Sections/Reservation/Reservation.astro";
 import Team from "../../components/Sections/Team/Team.astro";
 import data from "../../data/en.json";
+const notFound = false;
 ---
 
-<Front nav={data.nav}>
+<Front nav={data.nav} phone={data.org.phone} notFound={notFound}>
   <main>
-    <Intro title={data.intro.title} text={data.intro.text} />
+    <Intro
+      title={data.intro.title}
+      text={data.intro.text}
+      keyvisual={data.intro.keyvisual}
+    />
     <Team
       title={data.team.title}
       text={data.team.text}

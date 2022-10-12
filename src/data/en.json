@@ -1,16 +1,16 @@
 {
   "org": {
     "author": "Dr. med. Max Muster",
-    "city": "Zürich",
+    "city": "Zurich",
     "closesAt": "17:00",
     "copyright": "Dr. med. Max Muster",
-    "country": "Schweiz",
-    "desc": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.",
+    "country": "Switzerland",
+    "desc": "The friendly GP practice on Bahnhofstrasse has been helping young and old with health complaints, prevention and general health support for 3 decades.",
     "foundingdate": "2019",
-    "founderJobTitle": "Arzt",
+    "founderJobTitle": "Doctor",
     "id": "https://mustermann.ch",
     "image": "/assets/poster.jpg",
-    "name": "Familien- und Kinderpraxis Mustermann",
+    "name": "Family and Children's Practice Mustermann",
     "no": "62",
     "latitude": "47.453298",
     "longitude": "8.0305979",
@@ -26,11 +26,11 @@
       "https://linkedin.com/@mustermann",
       "https://google.com/@mustermann"
     ],
-    "region": "Kanton Zürich",
+    "region": "Canton Zurich",
     "speciality": "TAVI",
     "sameAs": "",
     "shortName": "k&fM",
-    "specialities": ["Pädiatrie", "Innere Medizin", "Kardiologie"],
+    "specialities": ["Paediatrics", "Internal medicine", "Cardiology"],
     "street": "Bahnhofstrasse",
     "type": "Corporation,LocalBusiness,MedicalOrganization",
     "url": "https://mustermann.ch",
@@ -39,129 +39,131 @@
   },
   "meta": {
     "title": "Dr. med. Mustermann",
-    "metatitle": "Willkommen bei Dr. med. Mustermann"
+    "metatitle": "Welcome at the Family and Children's Practice Mustermann"
   },
   "intro": {
-    "title": "At the Right Place: <br />Family and Children Practice Mustermann",
-    "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>",
+    "title": "In the right place:: <br />Family and Children's Practice Mustermann",
+    "text": "The friendly GP practice on Bahnhofstrasse has been helping young and old with health complaints, prevention and general health support for 3 decades.<br><br><strong>Welcome!</strong>",
     "keyvisual": "intro.jpg"
   },
   "team": {
-    "title": "Unser Ärzteteam",
-    "text": "Mit unserem Fachärzte-Team stehen Ihnen weit gefächerte Kompetenzen und viele Jahre praktische Erfahrung zur Verfügung. Wir empfangen Sie gerne in vier Sprachen.",
+    "title": "Our Medical Team",
+    "text": "With our team of specialists, you have a wide range of skills and many years of practical experience at your disposal. We are happy to welcome you in four languages.",
     "persons": [
       {
         "name": "Dr. med. Max Mustermann",
-        "title": "Facharzt für Allg. Innere Medizin",
-        "text": "Ärztlicher Leiter. Sprachen: Deutsch, Englisch, Französisch. Spezialgebiete Kindermedizin und Labortechnologie. Veröffentlichungsliste <a href=\"https://scholar.google.com/citations?user=KTI2dCcAAAAJ&hl=en&oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">hier</a>.",
+        "title": "Specialist for General Internal Medicine",
+        "text": "Medical Director. Languages: German, English, French. Specialities: paediatrics and laboratory technology. Publication list: <a href=\"https://scholar.google.com/citations?user=KTI2dCcAAAAJ&hl=en&oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.",
         "availability": "Mo-Fr, 13-17",
         "email": "max@mustermann.ch",
         "mailto": "mailto:max@mustermann.ch",
         "reservation": "1",
+        "reservationtxt": "register",
         "portrait": "max-mustermann.jpg"
       },
       {
         "name": "Prof. Dr. med. Mara Musterfrau",
-        "title": "Fachärztin Kardiologie und Angiologie",
-        "text": "Sprachen: deutsch, Englisch, Spanisch. Spezialgebiet Generika und Polypharmazie.",
+        "title": "Specialist in Cardiology and Angiology",
+        "text": "Languages: German, English, Spanish. Specialised in generics and polypharmacy.",
         "availability": "Mo-Fr, 13-17",
         "phone": "077 567 89 10",
         "email": "mara@mustermann.ch",
         "mailto": "mailto:mara@mustermann.ch",
         "reservation": "1",
+        "reservationtxt": "register",
         "portrait": "mara-musterfrau.jpg"
       }
     ]
   },
   "practice": {
-    "title": "Unsere Praxis",
-    "text": "Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik, ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong>Unser Team freut sich, Sie kennenzulernen.</strong>",
+    "title": "Our Practice",
+    "text": "Our air-conditioned, well-maintained practice has state-of-the-art diagnostics, a laboratory for the most common tests, two treatment rooms and a waiting room that also makes waiting time fun for your children. <strong>Our team is looking forward to meeting you.</strong>",
     "images": [
       {
         "file": "behandlungsraum.jpg",
-        "title": "Behandlungsraum",
-        "description": "genug Platz und moderne Ausrüstung"
+        "title": "Treatment Room",
+        "description": "enough space and modern equipment"
       },
       {
         "file": "beratung.jpg",
-        "title": "Zusammen",
-        "description": "Patienteninformation wird bei uns hochgeschrieben"
+        "title": "Together",
+        "description": "we attach great importance to patient information"
       },
       {
         "file": "empfang.jpg",
-        "title": "Empfang",
-        "description": "per Telefon, Mail und vor Ort für Sie da"
+        "title": "Front Office",
+        "description": "there for you by phone, email and on site"
       },
       {
         "file": "warteraum.jpg",
-        "title": "Warteraum",
-        "description": "bei uns langweilt sich weder Gross noch Klein"
+        "title": "Waiting Room",
+        "description": "here, neither young nor old will be bored"
       }
     ]
   },
   "reservation": {
-    "title": "Reservieren Sie Ihren Termin",
-    "text": "Natürlich können Sie sich auch telefonisch unter der Nummer 044 321 67 80 anmelden."
+    "title": "Reserve your Appointment",
+    "text": "Of course you can also register by telephone on 044 321 67 80."
   },
   "arrival": {
-    "title": "Anreise",
-    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p><p>Nutzen Sie gerne untenstehende Reisehilfen.</p>",
+    "title": "Arrival",
+    "text": "<p>We are open from <strong>Monday to Friday from 8 am to 5 pm&nbsp;</strong>for you.</p><p>You will find us at Musterstrasse 1, 8000 Musterstadt on the second floor. Our practice is easily accessible by public transport and by car and is wheelchair accessible throughout.&nbsp;</p><p>Tram stops 7, 11, 13 and 6 (Bahnhofstrasse) are located in front of the building. There are two free parking spaces for patients in the basement.&nbsp;</p><p>You are welcome to use the travel aids below.</p>",
     "buttons": [
       {
         "href": "https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?nach=8002+Z%C3%BCrich%2C+Bahnhofstrasse&umsteigezeit=zehn",
-        "text": "Fahrpläne"
+        "text": "Timetables"
       },
       {
         "href": "https://www.google.com/maps/dir//Bahnhofstrasse+1+8001+Z%C3%BCrich/@47.367335,8.5398542,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47900a0005532115:0x35c28fa7189a4871",
-        "text": "Route planen"
+        "text": "Directions"
       },
       {
         "href": "https://www.srk-zuerich.ch/sites/default/files/2021-12/telefonliste-fahrdienst-gemeinden-srk-zuerich-2112.pdf",
-        "text": "Fahrdienst"
+        "text": "Transport Service"
       },
       {
         "href": "/assets/wegbeschreibung.pdf",
-        "text": "druckbare Wegbeschreibung"
+        "text": "Printable Directions"
       }
     ]
   },
   "faq": {
-    "title": "Fragen unserer Patient:innen",
+    "title": "Questions from Our Patients",
     "text": "",
     "questions": [
       {
-        "question": "Welche Kosten übernimmt meine Versicherung?",
-        "answer": "Normalerweise werden alle Kosten durch die Allgemeinversicherung gedeckt. Falls eine Leistung, z.B. spezielle Laboruntersuchungen, nicht gedeckt wären, informieren wir Sie, so dass Sie entscheiden können, ob Sie diese machen möchten und zu welchem Zeitpunkt."
+        "question": "What costs does my insurance cover?",
+        "answer": "Normally, all costs are covered by the general insurance. If a service, e.g. special laboratory tests, would not be covered, we will inform you so that you can decide whether you want to have them done and at what time."
       },
       {
-        "question": "Wie lange dauert eine Erstabklärung?",
-        "answer": "Eine Erstabklärung dauert in der Regel nicht länger als 60 Minuten."
+        "question": "How long does an initial assessment take?",
+        "answer": "An initial assessment usually takes no longer than 60 minutes."
       },
       {
-        "question": "Was muss ich beim ersten Besuch beachten?",
-        "answer": "Wenn möglich füllen Sie vor dem Besuch das digitale Stammblatt inkl. der Anamnese aus. So ist Ihre Konsultation optimal vorbereitet."
+        "question": "What do I need to bear in mind on my first visit?",
+        "answer": "If possible, fill out the digital master sheet including the medical history before the visit. This way your consultation is optimally prepared."
       },
       {
-        "question": "Darf ich den Arzt aussuchen?",
-        "answer": "Ja, natürlich haben Sie freie Wahl, von welchem Arzt oder Ärztin Sie beraten und behandeln lassen möchten."
+        "question": "May I choose the doctor?",
+        "answer": "Yes, of course you are free to choose which doctor you would like to be advised and treated by."
       }
     ]
   },
   "footer": {
-    "byline": "<a href=\"https://digital4docs.ch\" title=\"Praxis Websites für Ärzte\" rel=\"noopener\">Powered by Digital4Docs</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"/de\">&copy; 2022 - 2022 Familien- und Kinderpraxis Mustermann</a> &nbsp;&nbsp;|&nbsp;&nbsp;Icons used with kind permission by <a href=\"https://www.unsplash.com\" rel=\"noopener\" title=\"Unsplash\">Unsplash</a> and <a href=\"https://fontawesome.com/license\" rel=\"noopener\">Fontawesome</a>",
-    "langselect": "Sprache wählen",
-    "imprint": "Impressum",
-    "dataprotection": "Datenschutz"
+    "byline": "<a href=\"https://digital4docs.ch\" title=\"Praxis Websites für Ärzte\" rel=\"noopener\">Powered by Digital4Docs</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"/de\">&copy; 2022 - 2022 Family and Children's Practice Mustermann</a> &nbsp;&nbsp;|&nbsp;&nbsp;Icons used with kind permission by <a href=\"https://www.unsplash.com\" rel=\"noopener\" title=\"Unsplash\">Unsplash</a> and <a href=\"https://fontawesome.com/license\" rel=\"noopener\">Fontawesome</a>",
+    "langselect": "Select Language",
+    "imprint": "Imprint",
+    "dataprotection": "Data Protection"
   },
   "notfound": {
     "h1": "Sorry, 404!",
-    "h2": "theres no content with that address.",
-    "p": "Bitte nutzen Sie untenstehende Verlinkungen, um weiterzufahren oder rufen Sie uns gerne an: ",
+    "h2": "Unfortunately, there is no content under this URL.",
+    "p": "Please use the links below to continue or feel free to call us: ",
     "team": "Team",
-    "practice": "Praxis",
-    "reservation": "Termin reservieren",
-    "arrival": "Anreise",
-    "faq": "Fragen & Antworten"
+    "practice": "Practice",
+    "reservation": "Reservation",
+    "arrival": "Arrival",
+    "faq": "FAQ"
   },
   "nav": {
     "team": "Team",

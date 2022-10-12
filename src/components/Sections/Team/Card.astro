@@ -10,16 +10,14 @@ const {
   title,
   text,
   availability,
-  email,
   mailto,
   phone,
   reservation,
+  reservationtxt,
   portrait,
 } = Astro.props;
 
 let imgPath = "src/assets/" + portrait;
-
-//import localImage from imgPath;
 ---
 
 <section class="card">
@@ -46,10 +44,5 @@ let imgPath = "src/assets/" + portrait;
   {availability ? <Availability availability={availability} /> : ""}
   {phone ? <Phone phone={phone} /> : ""}
   {mailto ? <Email mailto={mailto} /> : ""}
-  {reservation ? <Reservation /> : ""}
+  {reservation ? <Reservation btnTxt={reservationtxt} /> : ""}
 </section>
-
-<!--
-    src={"/src/assets/" + portrait} wandelt nicht in avif oder webp um
-    import localImage from imgPath; führt zu fehlermeldung
- -->

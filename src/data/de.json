@@ -58,6 +58,7 @@
         "email": "max@mustermann.ch",
         "mailto": "mailto:max@mustermann.ch",
         "reservation": "1",
+        "reservationtxt": "anmelden",
         "portrait": "max-mustermann.jpg"
       },
       {
@@ -69,6 +70,7 @@
         "email": "mara@mustermann.ch",
         "mailto": "mailto:mara@mustermann.ch",
         "reservation": "1",
+        "reservationtxt": "anmelden",
         "portrait": "mara-musterfrau.jpg"
       }
     ]
