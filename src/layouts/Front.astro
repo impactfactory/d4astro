@@ -15,7 +15,7 @@ import data from "../data/de.json";
 
 import "../styles/custom.scss";
 
-const { title } = Astro.props;
+const { nav, notFound } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ const { title } = Astro.props;
     <Favicons org={data.org} />
   </head>
   <body>
-    <Header />
+    <Header notFound={notFound} nav={nav} />
     <slot />
   </body>
 </html>

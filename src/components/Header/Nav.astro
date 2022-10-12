@@ -1,4 +1,5 @@
 ---
+const { nav, notFound } = Astro.props;
 ---
 
 <input id="menu-toggle" type="checkbox" />
@@ -6,21 +7,52 @@
   <div class="menu-button"></div>
 </label>
 
-<ul class="menu">
-  <li>
-    <a title="Team" class="" href="#team" onclick="hideMenu()"> Team</a>
-  </li>
-  <li>
-    <a title="Praxis" class="" href="#practice" onclick="hideMenu()"> Praxis</a>
-  </li>
-  <li>
-    <a title="Termin" class="" href="#reservation" onclick="hideMenu()">
-      Termin
-    </a>
-  </li>
-  <li>
-    <a title="Anreise" class="" href="#arrival" onclick="hideMenu()">
-      Anreise
-    </a>
-  </li>
-</ul>
+{
+  !notFound ? (
+    <ul class="menu">
+      <li>
+        <a class="" href="#team" onclick="hideMenu()">
+          {nav.team}
+        </a>
+      </li>
+      <li>
+        <a class="" href="#practice" onclick="hideMenu()">
+          {nav.practice}
+        </a>
+      </li>
+      <li>
+        <a class="" href="#reservation" onclick="hideMenu()">
+          {nav.reservation}
+        </a>
+      </li>
+      <li>
+        <a class="" href="#arrival" onclick="hideMenu()">
+          {nav.arrival}
+        </a>
+      </li>
+    </ul>
+  ) : (
+    <ul class="menu">
+      <li>
+        <a class="" href="/#team" onclick="hideMenu()">
+          {nav.team}
+        </a>
+      </li>
+      <li>
+        <a class="" href="/#practice" onclick="hideMenu()">
+          {nav.practice}
+        </a>
+      </li>
+      <li>
+        <a class="" href="/#reservation" onclick="hideMenu()">
+          {nav.reservation}
+        </a>
+      </li>
+      <li>
+        <a class="" href="/#arrival" onclick="hideMenu()">
+          {nav.arrival}
+        </a>
+      </li>
+    </ul>
+  )
+}

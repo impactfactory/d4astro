@@ -1,4 +1,43 @@
 ---
+import data from "../data/de.json";
+import Footer from "../components/Footer/Footer.astro";
+import Front from "../layouts/Front.astro";
+
+const err = data.notfound;
+const phone = "tel:" + data.org.phone;
+const notFound = true;
 ---
 
-<h1>Me does not working.</h1>
+<Front notFound={notFound}>
+  <main>
+    <div class="wrap indent-me">
+      <h1>{err.h1}</h1>
+      <h2>{err.h2}</h2>
+
+      <p>
+        {err.p}<a href={phone}>{data.org.phone}</a>.
+      </p>
+      <a class="btn" href="/#team">{err.team}</a>
+      <a class="btn" href="/#practice">{err.practice}</a>
+      <a class="btn" href="/#termin">{err.reservation}</a>
+      <a class="btn" href="/#arrival">{err.arrival}</a>
+      <a class="btn" href="/#faq">{err.faq}</a>
+    </div>
+  </main>
+  <Footer
+    imprint={data.footer.imprint}
+    dataprotection={data.footer.dataprotection}
+    langselect={data.footer.langselect}
+    byline={data.footer.byline}
+    org={data.org}
+  />
+</Front>
+
+<style>
+  .wrap {
+    padding-bottom: var(--padd-xl);
+  }
+  .btn {
+    margin-top: var(--padd-lg);
+  }
+</style>

@@ -1,0 +1,171 @@
+{
+  "org": {
+    "author": "Dr. med. Max Muster",
+    "city": "Zürich",
+    "closesAt": "17:00",
+    "copyright": "Dr. med. Max Muster",
+    "country": "Schweiz",
+    "desc": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.",
+    "foundingdate": "2019",
+    "founderJobTitle": "Arzt",
+    "id": "https://mustermann.ch",
+    "image": "/assets/poster.jpg",
+    "name": "Familien- und Kinderpraxis Mustermann",
+    "no": "62",
+    "latitude": "47.453298",
+    "longitude": "8.0305979",
+    "logo": "/assets/logo.jpg",
+    "medicalspeciality": "cardiovascular",
+    "opensAt": "08:00",
+    "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "owner": "Dr. med. Max Mustermann",
+    "phone": "0041 44 567 89 00",
+    "place": "/assets/place.jpg",
+    "profiles": [
+      "https://facebook.com/@mustermann",
+      "https://linkedin.com/@mustermann",
+      "https://google.com/@mustermann"
+    ],
+    "region": "Kanton Zürich",
+    "speciality": "TAVI",
+    "sameAs": "",
+    "shortName": "k&fM",
+    "specialities": ["Pädiatrie", "Innere Medizin", "Kardiologie"],
+    "street": "Bahnhofstrasse",
+    "type": "Corporation,LocalBusiness,MedicalOrganization",
+    "url": "https://mustermann.ch",
+    "urlauthor": "https://mustermann.ch",
+    "zip": "8000"
+  },
+  "meta": {
+    "title": "Dr. med. Mustermann",
+    "metatitle": "Willkommen bei Dr. med. Mustermann"
+  },
+  "intro": {
+    "title": "At the Right Place: <br />Family and Children Practice Mustermann",
+    "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>"
+  },
+  "team": {
+    "title": "Unser Ärzteteam",
+    "text": "Mit unserem Fachärzte-Team stehen Ihnen weit gefächerte Kompetenzen und viele Jahre praktische Erfahrung zur Verfügung. Wir empfangen Sie gerne in vier Sprachen.",
+    "persons": [
+      {
+        "name": "Dr. med. Max Mustermann",
+        "title": "Facharzt für Allg. Innere Medizin",
+        "text": "Ärztlicher Leiter. Sprachen: Deutsch, Englisch, Französisch. Spezialgebiete Kindermedizin und Labortechnologie. Veröffentlichungsliste <a href=\"https://scholar.google.com/citations?user=KTI2dCcAAAAJ&hl=en&oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">hier</a>.",
+        "availability": "Mo-Fr, 13-17",
+        "email": "max@mustermann.ch",
+        "mailto": "mailto:max@mustermann.ch",
+        "reservation": "1",
+        "portrait": "max-mustermann.jpg"
+      },
+      {
+        "name": "Prof. Dr. med. Mara Musterfrau",
+        "title": "Fachärztin Kardiologie und Angiologie",
+        "text": "Sprachen: deutsch, Englisch, Spanisch. Spezialgebiet Generika und Polypharmazie.",
+        "availability": "Mo-Fr, 13-17",
+        "phone": "077 567 89 10",
+        "email": "mara@mustermann.ch",
+        "mailto": "mailto:mara@mustermann.ch",
+        "reservation": "1",
+        "portrait": "mara-musterfrau.jpg"
+      }
+    ]
+  },
+  "practice": {
+    "title": "Unsere Praxis",
+    "text": "Unsere klimatisierte, gepflegte Praxis verfügt über modernste Diagnostik, ein Labor für die häufigsten Tests, zwei Behandlungszimmer und ein Wartezimmer, das auch Ihren Kindern die Wartezeit spielend verkürzt. <strong>Unser Team freut sich, Sie kennenzulernen.</strong>",
+    "images": [
+      {
+        "file": "behandlungsraum.jpg",
+        "title": "Behandlungsraum",
+        "description": "genug Platz und moderne Ausrüstung"
+      },
+      {
+        "file": "beratung.jpg",
+        "title": "Zusammen",
+        "description": "Patienteninformation wird bei uns hochgeschrieben"
+      },
+      {
+        "file": "empfang.jpg",
+        "title": "Empfang",
+        "description": "per Telefon, Mail und vor Ort für Sie da"
+      },
+      {
+        "file": "warteraum.jpg",
+        "title": "Warteraum",
+        "description": "bei uns langweilt sich weder Gross noch Klein"
+      }
+    ]
+  },
+  "reservation": {
+    "title": "Reservieren Sie Ihren Termin",
+    "text": "Natürlich können Sie sich auch telefonisch unter der Nummer 044 321 67 80 anmelden."
+  },
+  "arrival": {
+    "title": "Anreise",
+    "text": "<p>Wir sind von <strong>Montag bis Freitag von 8-17 Uhr&nbsp;</strong>für Sie da.</p><p>Sie finden uns an der Musterstrasse 1, 8000 Musterstadt im zweiten Stock. Unsere Praxis ist mit dem ÖV und per Auto sehr gut erreichbar und durchgehend rohlstuhl-gerecht.&nbsp;</p><p>Vor dem Haus finden sich die Tram-Stationen 7, 11, 13 und 6 (Bahnhofstrasse). Im Untergeschoss stehen zwei Parkplätze für Patient:innen frei.&nbsp;</p><p>Nutzen Sie gerne untenstehende Reisehilfen.</p>",
+    "buttons": [
+      {
+        "href": "https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?nach=8002+Z%C3%BCrich%2C+Bahnhofstrasse&umsteigezeit=zehn",
+        "text": "Fahrpläne"
+      },
+      {
+        "href": "https://www.google.com/maps/dir//Bahnhofstrasse+1+8001+Z%C3%BCrich/@47.367335,8.5398542,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47900a0005532115:0x35c28fa7189a4871",
+        "text": "Route planen"
+      },
+      {
+        "href": "https://www.srk-zuerich.ch/sites/default/files/2021-12/telefonliste-fahrdienst-gemeinden-srk-zuerich-2112.pdf",
+        "text": "Fahrdienst"
+      },
+      {
+        "href": "/assets/wegbeschreibung.pdf",
+        "text": "druckbare Wegbeschreibung"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Fragen unserer Patient:innen",
+    "text": "",
+    "questions": [
+      {
+        "question": "Welche Kosten übernimmt meine Versicherung?",
+        "answer": "Normalerweise werden alle Kosten durch die Allgemeinversicherung gedeckt. Falls eine Leistung, z.B. spezielle Laboruntersuchungen, nicht gedeckt wären, informieren wir Sie, so dass Sie entscheiden können, ob Sie diese machen möchten und zu welchem Zeitpunkt."
+      },
+      {
+        "question": "Wie lange dauert eine Erstabklärung?",
+        "answer": "Eine Erstabklärung dauert in der Regel nicht länger als 60 Minuten."
+      },
+      {
+        "question": "Was muss ich beim ersten Besuch beachten?",
+        "answer": "Wenn möglich füllen Sie vor dem Besuch das digitale Stammblatt inkl. der Anamnese aus. So ist Ihre Konsultation optimal vorbereitet."
+      },
+      {
+        "question": "Darf ich den Arzt aussuchen?",
+        "answer": "Ja, natürlich haben Sie freie Wahl, von welchem Arzt oder Ärztin Sie beraten und behandeln lassen möchten."
+      }
+    ]
+  },
+  "footer": {
+    "byline": "<a href=\"https://digital4docs.ch\" title=\"Praxis Websites für Ärzte\" rel=\"noopener\">Powered by Digital4Docs</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"/de\">&copy; 2022 - 2022 Familien- und Kinderpraxis Mustermann</a> &nbsp;&nbsp;|&nbsp;&nbsp;Icons used with kind permission by <a href=\"https://www.unsplash.com\" rel=\"noopener\" title=\"Unsplash\">Unsplash</a> and <a href=\"https://fontawesome.com/license\" rel=\"noopener\">Fontawesome</a>",
+    "langselect": "Sprache wählen",
+    "imprint": "Impressum",
+    "dataprotection": "Datenschutz"
+  },
+  "notfound": {
+    "h1": "Ups, 404!",
+    "h2": "Unter dieser URL existiert leider kein Inhalt.",
+    "p": "Bitte nutzen Sie untenstehende Verlinkungen, um weiterzufahren oder rufen Sie uns gerne an: ",
+    "team": "Team",
+    "practice": "Praxis",
+    "reservation": "Termin reservieren",
+    "arrival": "Anreise",
+    "faq": "Fragen & Antworten"
+  },
+  "nav": {
+    "team": "Team",
+    "practice": "Practice",
+    "reservation": "Reservation",
+    "arrival": "Arrival"
+  }
+}

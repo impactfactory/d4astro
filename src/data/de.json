@@ -151,5 +151,21 @@
     "langselect": "Sprache wählen",
     "imprint": "Impressum",
     "dataprotection": "Datenschutz"
+  },
+  "notfound": {
+    "h1": "Ups, 404!",
+    "h2": "Unter dieser URL existiert leider kein Inhalt.",
+    "p": "Bitte nutzen Sie untenstehende Verlinkungen, um weiterzufahren oder rufen Sie uns gerne an: ",
+    "team": "Team",
+    "practice": "Praxis",
+    "reservation": "Termin reservieren",
+    "arrival": "Anreise",
+    "faq": "Fragen & Antworten"
+  },
+  "nav": {
+    "team": "Team",
+    "practice": "Praxis",
+    "reservation": "Termin",
+    "arrival": "Anreise"
   }
 }
