@@ -1,6 +1,6 @@
-const btn = document.querySelector(".mode-toggle");
-  const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-  const currentTheme = localStorage.getItem("theme");
+  export const btn = document.querySelector(".mode-toggle");
+  export const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+  export const currentTheme = localStorage.getItem("theme");
 
   if (prefersDarkScheme.matches && currentTheme == "dark") {
     document.body.classList.add("dark");
@@ -15,7 +15,7 @@ const btn = document.querySelector(".mode-toggle");
   } else {
   }
 
-  function toggleMode() {
+  export function toggleMode() {
     if (document.body.classList.contains("dark")) {
       document.body.classList.remove("dark");
       var theme = "light";
