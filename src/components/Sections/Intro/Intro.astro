@@ -1,0 +1,19 @@
+---
+import Introvisual from "./Introvisual.astro";
+
+const { title, text, keyvisual } = Astro.props;
+---
+
+<div class="intro">
+  <div id="intro" class="anchor"></div>
+  <div class="introvisual">
+    <Introvisual keyvisual={keyvisual} />
+
+    <div class="overlay indent-me">
+      <h1 set:html={title}></h1>
+    </div>
+  </div>
+  <div class="introtext indent-me">
+    <p set:html={text}></p>
+  </div>
+</div>

@@ -6,6 +6,17 @@
     height: var(--shift);
     width: 100%;
 
+    .media280,
+    .media320,
+    .media360,
+    .media567,
+    .media768,
+    .media1024,
+    .media1280,
+    .media1440 {
+      display: none;
+    }
+
     img {
       animation: kenburns 8s ease;
       height: var(--shift);
@@ -57,6 +68,10 @@
     --shift: 140vw;
     --font-size: calc(var(--shift) / 10);
 
+    .media280 {
+      display: block;
+    }
+
     .overlay {
       transform: translateY(calc(var(--shift) * -1.1));
     }
@@ -67,6 +82,10 @@
   .intro .introvisual {
     --shift: 160vw;
     --font-size: calc(var(--shift) / 11);
+
+    .media320 {
+      display: block;
+    }
 
     .overlay {
       transform: translateY(calc(var(--shift) * -1.1));
@@ -79,6 +98,10 @@
     --shift: 150vw;
     --font-size: calc(var(--shift) / 12);
 
+    .media360 {
+      display: block;
+    }
+
     .overlay {
       transform: translateY(calc(var(--shift) * -1.1));
     }
@@ -89,6 +112,10 @@
   .intro .introvisual {
     --shift: 120vw;
     --font-size: calc(var(--shift) / 15);
+
+    .media567 {
+      display: block;
+    }
 
     .overlay {
       transform: translateY(calc(var(--shift) * -0.9));
@@ -101,6 +128,10 @@
     --shift: 100vw;
     --font-size: calc(var(--shift) / 14);
 
+    .media768 {
+      display: block;
+    }
+
     .overlay {
       transform: translateY(calc(var(--shift) * -0.9));
     }
@@ -111,6 +142,10 @@
   .intro .introvisual {
     --shift: 70vw;
     --font-size: calc(var(--shift) / 13);
+
+    .media1024 {
+      display: block;
+    }
 
     .overlay {
       transform: translateY(calc(var(--shift) * -0.9));
@@ -123,6 +158,10 @@
     --shift: 40vw;
     --font-size: calc(var(--shift) / 9);
 
+    .media1440 {
+      display: block;
+    }
+
     .overlay {
       transform: translateY(calc(var(--shift) * -0.7));
     }
@@ -134,6 +173,10 @@
     --shift: 40vw;
     --font-size: calc(var(--shift) / 9);
     //max-height: 600px;
+
+    .media1440 {
+      display: block;
+    }
 
     .overlay {
       transform: translateY(calc(var(--shift) * -0.7));

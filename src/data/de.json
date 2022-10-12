@@ -43,7 +43,8 @@
   },
   "intro": {
     "title": "Am richtigen Ort: <br />Familien- und Kinderpraxis Mustermann",
-    "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>"
+    "text": "Die sympathische Hausarzt-Praxis an der Bahnhofstrasse hilft seit 3 Jahrzehnten Gross und Klein bei Gesundheitsbeschwerden, Prävention und genereller Gesundheitsbegleitung.<br><br><strong>Willkommen!</strong>",
+    "keyvisual": "intro.jpg"
   },
   "team": {
     "title": "Unser Ärzteteam",

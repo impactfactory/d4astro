@@ -1,0 +1,85 @@
+---
+import { Picture } from "@astrojs/image/components";
+
+const { keyvisual } = Astro.props;
+let imgPath = "src/assets/" + keyvisual;
+---
+
+<Picture
+  src={imgPath}
+  widths={[280]}
+  aspectRatio="10:14"
+  sizes="(max-width: 280px) 280px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media280"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[320]}
+  aspectRatio="10:16"
+  sizes="(max-width: 320px) 320px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media320"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[360]}
+  aspectRatio="10:15"
+  sizes="(max-width: 360px) 360px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media360"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[567]}
+  aspectRatio="10:15"
+  sizes="(max-width: 567px) 567px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media567"
+/>
+<Picture
+  src={imgPath}
+  widths={[768]}
+  aspectRatio="1:1"
+  sizes="(max-width: 768px) 768px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media768"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[1024]}
+  aspectRatio="10:7"
+  sizes="(max-width: 1024px) 1024px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media1024"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[1280]}
+  aspectRatio="10:6"
+  sizes="(max-width: 1280px) 1280px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media1280"
+/>
+
+<Picture
+  src={imgPath}
+  widths={[1440]}
+  aspectRatio="10:5"
+  sizes="(max-width: 1440px) 1440px"
+  formats={["avif", "webp", "jpeg"]}
+  alt="Keyvisual"
+  class="media1440"
+/>
